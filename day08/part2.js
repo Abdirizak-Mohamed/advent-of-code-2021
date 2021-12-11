@@ -79,8 +79,6 @@ const numbers = {
      "abcdfg":9,
 }
 
-
-
 const findSectionD = (knownDigits, digits) => {
     const sixCharDigits = digits.filter(d => d.length === 6)
 
@@ -184,8 +182,6 @@ b    .  b    .  .    c  b    c  b    c
 .    f  e    f  .    f  e    f  .    f
 .    f  e    f  .    f  e    f  .    f
  gggg    gggg    ....    gggg    gggg
-
- 
 
 
 

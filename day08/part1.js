@@ -16,11 +16,6 @@ const main = () => {
     })
     console.log({count})
 
-
-
-
-
-
 }
 
 const getDisplayedDigits = (display, knownDigits) => {
@@ -30,41 +25,5 @@ const getDisplayedDigits = (display, knownDigits) => {
         return count
     }, 0)
 }
-
-
-const getKnownDigits = (digits) => {
-    return digits.reduce((values, digit) => {
-        let uniqueChars = {}
-        let charCount = 0
-        for (let i = 0; i < digit.length; i++){
-            const char = digit[i]
-            if (!uniqueChars[char]){
-                uniqueChars[char] = 1
-                charCount++
-                continue
-            }
-        }
-
-        switch(charCount) {
-            case 2:
-              values[digit] = true
-              break;
-            case 4:
-              values[digit] = true
-              break;
-            case 3:
-              values[digit] = true
-              break;
-            case 7:
-              values[digit] = true
-              break;              
-            default:
-          }
-
-          return values
-
-    }, {})
-}
-
 
 main()
