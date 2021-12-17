@@ -6,7 +6,7 @@ const main = () => {
 
     const x = [138, 184]
     const y = [-125, -71]
-    let yVelocity =  500
+    let yVelocity =  100
     let xVelocity = 18
 
     // const x = [20, 30]
